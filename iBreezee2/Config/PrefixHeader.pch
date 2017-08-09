@@ -1,0 +1,116 @@
+//
+//  PrefixHeader.pch
+//  iBreezee2
+//
+//  Created by MIRACLE on 2017/8/9.
+//  Copyright © 2017年 miracle. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <UIView+YYAdd.h>
+
+#endif
+
+
+
+//屏幕宽、高
+#define MIRSCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define MIRSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+/**
+ *  适配长度比例
+ */
+#define MIRHeightScale ([UIScreen mainScreen].bounds.size.height/667.)
+/**
+ *  适配宽度比例
+ */
+#define MIRWidthScale ([UIScreen mainScreen].bounds.size.width/375.)
+
+//1个像素的宽度
+#define SINGLE_LINE_WIDTH (1.0f/[UIScreen mainScreen].scale)
+
+//系统版本
+#define IOS_VERSION [[[UIDevice currentDevice] systemVersion] floatValue]
+
+
+//图片
+#define ImageWithName(A) [UIImage imageWithContentsOfFile:[[NSBundle mainBundle] pathForResource:A ofType:nil]]
+
+
+//弱引用/强引用
+#ifndef weakify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define weakify(object) autoreleasepool{} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) autoreleasepool{} __block __typeof__(object) block##_##object = object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define weakify(object) try{} @finally{} {} __weak __typeof__(object) weak##_##object = object;
+#else
+#define weakify(object) try{} @finally{} {} __block __typeof__(object) block##_##object = object;
+#endif
+#endif
+#endif
+
+#ifndef strongify
+#if DEBUG
+#if __has_feature(objc_arc)
+#define strongify(object) autoreleasepool{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) autoreleasepool{} __typeof__(object) object = block##_##object;
+#endif
+#else
+#if __has_feature(objc_arc)
+#define strongify(object) try{} @finally{} __typeof__(object) object = weak##_##object;
+#else
+#define strongify(object) try{} @finally{} __typeof__(object) object = block##_##object;
+#endif
+#endif
+#endif
+
+
+
+// 字符串是否为空
+#define MIRStringIsEmpty(str) ([str isKindOfClass:[NSNull class]] || str == nil || [str length] < 1 ? YES : NO )
+
+
+
+//一些常用的缩写
+#define MIRApplication [UIApplication sharedApplication]
+#define MIRKeyWindow [UIApplication sharedApplication].keyWindow
+#define MIRAppDelegate [UIApplication sharedApplication].delegate
+#define MIRUserDefaults [NSUserDefaults standardUserDefaults] // NSUserDefaults 实例化
+#define MIRNotificationCenter [NSNotificationCenter defaultCenter]
+
+
+
+
+//由角度获取弧度 ,由弧度获取角度
+#define degreesToRadian(x) (M_PI * (x) / 180.0)
+#define radianToDegrees(radian) (radian*180.0)/(M_PI)
+
+
+//方正黑体简体字体定义
+#define MIRFONT(F) [UIFont fontWithName:@"FZHTJW--GB1-0" size:F]
+
+
+
+//DEBUG模式下,打印日志(包括函数名、行号)
+#ifdef DEBUG
+# define MIRLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+#else
+# define MIRLog(...)
+#endif
+
+
+
+
+#endif /* PrefixHeader_pch */

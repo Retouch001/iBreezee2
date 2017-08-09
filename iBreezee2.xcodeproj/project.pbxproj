@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25D0E83E9E73AB841CC64A5E /* libPods-iBreezee2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 009BB953890CCDE103151479 /* libPods-iBreezee2Tests.a */; };
+		BAC71023B170D778E162AC88 /* libPods-iBreezee2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FA5EC2B2C165B5EEDC6BCA88 /* libPods-iBreezee2.a */; };
 		D008A9261F3B5D3100D63CD2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A9251F3B5D3100D63CD2 /* main.m */; };
 		D008A9291F3B5D3100D63CD2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A9281F3B5D3100D63CD2 /* AppDelegate.m */; };
-		D008A92C1F3B5D3100D63CD2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A92B1F3B5D3100D63CD2 /* ViewController.m */; };
 		D008A92F1F3B5D3100D63CD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D008A92D1F3B5D3100D63CD2 /* Main.storyboard */; };
 		D008A9311F3B5D3100D63CD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D008A9301F3B5D3100D63CD2 /* Assets.xcassets */; };
 		D008A9341F3B5D3100D63CD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D008A9321F3B5D3100D63CD2 /* LaunchScreen.storyboard */; };
 		D008A93F1F3B5D3100D63CD2 /* iBreezee2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A93E1F3B5D3100D63CD2 /* iBreezee2Tests.m */; };
 		D008A94A1F3B5D3100D63CD2 /* iBreezee2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A9491F3B5D3100D63CD2 /* iBreezee2UITests.m */; };
+		D008A96B1F3B659700D63CD2 /* UIView+MIRXib.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */; };
+		D008A96E1F3B662400D63CD2 /* UIView+MIRCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */; };
+		D008A9721F3B68FC00D63CD2 /* MIRSystemAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A9711F3B68FC00D63CD2 /* MIRSystemAlert.m */; };
+		FB7B81D1FEB07044C354C7E7 /* libPods-iBreezee2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAF78996C09CCEB717B55BA /* libPods-iBreezee2UITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,22 +40,38 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		009BB953890CCDE103151479 /* libPods-iBreezee2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBreezee2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BAF78996C09CCEB717B55BA /* libPods-iBreezee2UITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBreezee2UITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		178EE13BB97E5BEB59FE35D2 /* Pods-iBreezee2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2UITests/Pods-iBreezee2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5B445B5AB93714145CC9491E /* Pods-iBreezee2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2Tests/Pods-iBreezee2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8D3782A7D7A7970C6A6C6092 /* Pods-iBreezee2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2/Pods-iBreezee2.debug.xcconfig"; sourceTree = "<group>"; };
 		D008A9211F3B5D3100D63CD2 /* iBreezee2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iBreezee2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008A9251F3B5D3100D63CD2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D008A9271F3B5D3100D63CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D008A9281F3B5D3100D63CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D008A92A1F3B5D3100D63CD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D008A92B1F3B5D3100D63CD2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D008A9271F3B5D3100D63CD2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../AppDelegate.h; sourceTree = "<group>"; };
+		D008A9281F3B5D3100D63CD2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../AppDelegate.m; sourceTree = "<group>"; };
 		D008A92E1F3B5D3100D63CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D008A9301F3B5D3100D63CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D008A9301F3B5D3100D63CD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../Assets.xcassets; sourceTree = "<group>"; };
 		D008A9331F3B5D3100D63CD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D008A9351F3B5D3100D63CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D008A9351F3B5D3100D63CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
 		D008A93A1F3B5D3100D63CD2 /* iBreezee2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBreezee2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008A93E1F3B5D3100D63CD2 /* iBreezee2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBreezee2Tests.m; sourceTree = "<group>"; };
 		D008A9401F3B5D3100D63CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D008A9451F3B5D3100D63CD2 /* iBreezee2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iBreezee2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D008A9491F3B5D3100D63CD2 /* iBreezee2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iBreezee2UITests.m; sourceTree = "<group>"; };
 		D008A94B1F3B5D3100D63CD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D008A9661F3B60AA00D63CD2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		D008A9671F3B633600D63CD2 /* MIRColorCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRColorCenter.h; sourceTree = "<group>"; };
+		D008A9691F3B659700D63CD2 /* UIView+MIRXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MIRXib.h"; sourceTree = "<group>"; };
+		D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MIRXib.m"; sourceTree = "<group>"; };
+		D008A96C1F3B662400D63CD2 /* UIView+MIRCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MIRCornerRadius.h"; sourceTree = "<group>"; };
+		D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MIRCornerRadius.m"; sourceTree = "<group>"; };
+		D008A96F1F3B679200D63CD2 /* MIRGlobalConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRGlobalConstant.h; sourceTree = "<group>"; };
+		D008A9701F3B68FC00D63CD2 /* MIRSystemAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRSystemAlert.h; sourceTree = "<group>"; };
+		D008A9711F3B68FC00D63CD2 /* MIRSystemAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIRSystemAlert.m; sourceTree = "<group>"; };
+		DFDF0F160589506FDD5F7967 /* Pods-iBreezee2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2UITests/Pods-iBreezee2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		E706ABACD6E13AB1FA7CD13A /* Pods-iBreezee2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2Tests/Pods-iBreezee2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E942C8D17574954F14D3C509 /* Pods-iBreezee2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2/Pods-iBreezee2.release.xcconfig"; sourceTree = "<group>"; };
+		FA5EC2B2C165B5EEDC6BCA88 /* libPods-iBreezee2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iBreezee2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAC71023B170D778E162AC88 /* libPods-iBreezee2.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25D0E83E9E73AB841CC64A5E /* libPods-iBreezee2Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +95,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB7B81D1FEB07044C354C7E7 /* libPods-iBreezee2UITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2FADC03600FECEE4448C1D4B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA5EC2B2C165B5EEDC6BCA88 /* libPods-iBreezee2.a */,
+				009BB953890CCDE103151479 /* libPods-iBreezee2Tests.a */,
+				0BAF78996C09CCEB717B55BA /* libPods-iBreezee2UITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D008A9181F3B5D3100D63CD2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				D008A93D1F3B5D3100D63CD2 /* iBreezee2Tests */,
 				D008A9481F3B5D3100D63CD2 /* iBreezee2UITests */,
 				D008A9221F3B5D3100D63CD2 /* Products */,
+				EBCDD976599D01717A4DBD0C /* Pods */,
+				2FADC03600FECEE4448C1D4B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +137,14 @@
 		D008A9231F3B5D3100D63CD2 /* iBreezee2 */ = {
 			isa = PBXGroup;
 			children = (
-				D008A9271F3B5D3100D63CD2 /* AppDelegate.h */,
-				D008A9281F3B5D3100D63CD2 /* AppDelegate.m */,
-				D008A92A1F3B5D3100D63CD2 /* ViewController.h */,
-				D008A92B1F3B5D3100D63CD2 /* ViewController.m */,
-				D008A92D1F3B5D3100D63CD2 /* Main.storyboard */,
-				D008A9301F3B5D3100D63CD2 /* Assets.xcassets */,
-				D008A9321F3B5D3100D63CD2 /* LaunchScreen.storyboard */,
-				D008A9351F3B5D3100D63CD2 /* Info.plist */,
+				D008A9571F3B5DA800D63CD2 /* AppEntry */,
+				D008A95F1F3B5DCB00D63CD2 /* Categories */,
+				D008A9601F3B5DCB00D63CD2 /* Config */,
+				D008A9611F3B5DCB00D63CD2 /* Features */,
+				D008A9621F3B5DCB00D63CD2 /* Helpers */,
+				D008A9631F3B5DCB00D63CD2 /* Resources */,
+				D008A9641F3B5DCB00D63CD2 /* Utilites */,
+				D008A9651F3B5DCB00D63CD2 /* Vendors */,
 				D008A9241F3B5D3100D63CD2 /* Supporting Files */,
 			);
 			path = iBreezee2;
@@ -140,6 +176,90 @@
 			path = iBreezee2UITests;
 			sourceTree = "<group>";
 		};
+		D008A9571F3B5DA800D63CD2 /* AppEntry */ = {
+			isa = PBXGroup;
+			children = (
+				D008A9271F3B5D3100D63CD2 /* AppDelegate.h */,
+				D008A9281F3B5D3100D63CD2 /* AppDelegate.m */,
+			);
+			path = AppEntry;
+			sourceTree = "<group>";
+		};
+		D008A95F1F3B5DCB00D63CD2 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D008A9691F3B659700D63CD2 /* UIView+MIRXib.h */,
+				D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */,
+				D008A96C1F3B662400D63CD2 /* UIView+MIRCornerRadius.h */,
+				D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D008A9601F3B5DCB00D63CD2 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				D008A9661F3B60AA00D63CD2 /* PrefixHeader.pch */,
+				D008A9671F3B633600D63CD2 /* MIRColorCenter.h */,
+				D008A96F1F3B679200D63CD2 /* MIRGlobalConstant.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D008A9611F3B5DCB00D63CD2 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D008A9621F3B5DCB00D63CD2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D008A9701F3B68FC00D63CD2 /* MIRSystemAlert.h */,
+				D008A9711F3B68FC00D63CD2 /* MIRSystemAlert.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		D008A9631F3B5DCB00D63CD2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D008A92D1F3B5D3100D63CD2 /* Main.storyboard */,
+				D008A9301F3B5D3100D63CD2 /* Assets.xcassets */,
+				D008A9321F3B5D3100D63CD2 /* LaunchScreen.storyboard */,
+				D008A9351F3B5D3100D63CD2 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D008A9641F3B5DCB00D63CD2 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		D008A9651F3B5DCB00D63CD2 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		EBCDD976599D01717A4DBD0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D3782A7D7A7970C6A6C6092 /* Pods-iBreezee2.debug.xcconfig */,
+				E942C8D17574954F14D3C509 /* Pods-iBreezee2.release.xcconfig */,
+				E706ABACD6E13AB1FA7CD13A /* Pods-iBreezee2Tests.debug.xcconfig */,
+				5B445B5AB93714145CC9491E /* Pods-iBreezee2Tests.release.xcconfig */,
+				178EE13BB97E5BEB59FE35D2 /* Pods-iBreezee2UITests.debug.xcconfig */,
+				DFDF0F160589506FDD5F7967 /* Pods-iBreezee2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +267,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D008A94E1F3B5D3100D63CD2 /* Build configuration list for PBXNativeTarget "iBreezee2" */;
 			buildPhases = (
+				4FAEB830793136CC8611BA40 /* [CP] Check Pods Manifest.lock */,
 				D008A91D1F3B5D3100D63CD2 /* Sources */,
 				D008A91E1F3B5D3100D63CD2 /* Frameworks */,
 				D008A91F1F3B5D3100D63CD2 /* Resources */,
+				9A45B610979CCEE4EA1D0A1C /* [CP] Embed Pods Frameworks */,
+				E8A40A6C4831F3A90B689D02 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +287,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D008A9511F3B5D3100D63CD2 /* Build configuration list for PBXNativeTarget "iBreezee2Tests" */;
 			buildPhases = (
+				12ED47423D276132C7FC5C95 /* [CP] Check Pods Manifest.lock */,
 				D008A9361F3B5D3100D63CD2 /* Sources */,
 				D008A9371F3B5D3100D63CD2 /* Frameworks */,
 				D008A9381F3B5D3100D63CD2 /* Resources */,
+				22EEDC0D78C9EB8A12DC3653 /* [CP] Embed Pods Frameworks */,
+				18BF441B48140DB83596C722 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +308,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D008A9541F3B5D3100D63CD2 /* Build configuration list for PBXNativeTarget "iBreezee2UITests" */;
 			buildPhases = (
+				7DD9B96BE1B3A6BC0F7F56E6 /* [CP] Check Pods Manifest.lock */,
 				D008A9411F3B5D3100D63CD2 /* Sources */,
 				D008A9421F3B5D3100D63CD2 /* Frameworks */,
 				D008A9431F3B5D3100D63CD2 /* Resources */,
+				E8CEBB4D83EDF8866C06F90F /* [CP] Embed Pods Frameworks */,
+				AC7132CCDECCB87D4826EF44 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,12 +400,152 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		12ED47423D276132C7FC5C95 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		18BF441B48140DB83596C722 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2Tests/Pods-iBreezee2Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22EEDC0D78C9EB8A12DC3653 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2Tests/Pods-iBreezee2Tests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4FAEB830793136CC8611BA40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DD9B96BE1B3A6BC0F7F56E6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9A45B610979CCEE4EA1D0A1C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2/Pods-iBreezee2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC7132CCDECCB87D4826EF44 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2UITests/Pods-iBreezee2UITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8A40A6C4831F3A90B689D02 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2/Pods-iBreezee2-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E8CEBB4D83EDF8866C06F90F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-iBreezee2UITests/Pods-iBreezee2UITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D008A91D1F3B5D3100D63CD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D008A92C1F3B5D3100D63CD2 /* ViewController.m in Sources */,
+				D008A96E1F3B662400D63CD2 /* UIView+MIRCornerRadius.m in Sources */,
+				D008A9721F3B68FC00D63CD2 /* MIRSystemAlert.m in Sources */,
+				D008A96B1F3B659700D63CD2 /* UIView+MIRXib.m in Sources */,
 				D008A9291F3B5D3100D63CD2 /* AppDelegate.m in Sources */,
 				D008A9261F3B5D3100D63CD2 /* main.m in Sources */,
 			);
@@ -320,6 +589,7 @@
 				D008A92E1F3B5D3100D63CD2 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		D008A9321F3B5D3100D63CD2 /* LaunchScreen.storyboard */ = {
@@ -328,6 +598,7 @@
 				D008A9331F3B5D3100D63CD2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -425,9 +696,12 @@
 		};
 		D008A94F1F3B5D3100D63CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D3782A7D7A7970C6A6C6092 /* Pods-iBreezee2.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3ENB4667F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iBreezee2/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = iBreezee2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.iBreezee2;
@@ -437,9 +711,12 @@
 		};
 		D008A9501F3B5D3100D63CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E942C8D17574954F14D3C509 /* Pods-iBreezee2.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = F3ENB4667F;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/iBreezee2/Config/PrefixHeader.pch";
 				INFOPLIST_FILE = iBreezee2/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.miracle.iBreezee2;
@@ -449,6 +726,7 @@
 		};
 		D008A9521F3B5D3100D63CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E706ABACD6E13AB1FA7CD13A /* Pods-iBreezee2Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F3ENB4667F;
@@ -462,6 +740,7 @@
 		};
 		D008A9531F3B5D3100D63CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B445B5AB93714145CC9491E /* Pods-iBreezee2Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = F3ENB4667F;
@@ -475,6 +754,7 @@
 		};
 		D008A9551F3B5D3100D63CD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 178EE13BB97E5BEB59FE35D2 /* Pods-iBreezee2UITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = iBreezee2UITests/Info.plist;
@@ -487,6 +767,7 @@
 		};
 		D008A9561F3B5D3100D63CD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFDF0F160589506FDD5F7967 /* Pods-iBreezee2UITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = F3ENB4667F;
 				INFOPLIST_FILE = iBreezee2UITests/Info.plist;
@@ -516,6 +797,7 @@
 				D008A9501F3B5D3100D63CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D008A9511F3B5D3100D63CD2 /* Build configuration list for PBXNativeTarget "iBreezee2Tests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +806,7 @@
 				D008A9531F3B5D3100D63CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D008A9541F3B5D3100D63CD2 /* Build configuration list for PBXNativeTarget "iBreezee2UITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +815,7 @@
 				D008A9561F3B5D3100D63CD2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
