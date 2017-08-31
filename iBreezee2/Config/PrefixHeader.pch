@@ -16,6 +16,8 @@
 #import <Foundation/Foundation.h>
 #import <UIView+YYAdd.h>
 
+#import "MIRColorCenter.h"
+
 #endif
 
 
@@ -94,8 +96,8 @@
 
 
 //由角度获取弧度 ,由弧度获取角度
-#define degreesToRadian(x) (M_PI * (x) / 180.0)
-#define radianToDegrees(radian) (radian*180.0)/(M_PI)
+#define MIRDegreesToRadian(x) (M_PI * (x) / 180.0)
+#define MIRRadianToDegrees(radian) (radian*180.0)/(M_PI)
 
 
 //方正黑体简体字体定义

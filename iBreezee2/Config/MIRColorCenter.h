@@ -16,7 +16,7 @@
 #define MIRWhiteColor                        MIRColorHex(0xFFFFFF)
 #define MIRBlackColor                        MIRColorHex(0x000000)
 
-#define MIRThemeColor                        MIRColorHex(0xFF7F50)
+#define MIRThemeColor                        MIRColorHex(0xFF2856)
 
 
 

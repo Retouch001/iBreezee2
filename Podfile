@@ -27,6 +27,7 @@ pod 'Bugly'
 
 pod 'JTCalendar'
 
+pod 'DateTools'
 
   target 'iBreezee2Tests' do
     inherit! :search_paths

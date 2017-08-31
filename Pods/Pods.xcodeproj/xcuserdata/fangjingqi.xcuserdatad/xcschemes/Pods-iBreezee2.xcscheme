@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F383983351461D50D2D3F9091E2A536E'
+               BlueprintIdentifier = '5D94A0F966B88FDA1CAC9C64F819D3F2'
                BlueprintName = 'Pods-iBreezee2'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-iBreezee2.a'>

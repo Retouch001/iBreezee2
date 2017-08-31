@@ -19,6 +19,24 @@
 		D008A96B1F3B659700D63CD2 /* UIView+MIRXib.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */; };
 		D008A96E1F3B662400D63CD2 /* UIView+MIRCornerRadius.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */; };
 		D008A9721F3B68FC00D63CD2 /* MIRSystemAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = D008A9711F3B68FC00D63CD2 /* MIRSystemAlert.m */; };
+		D04851AD1F566A6300551B16 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D04851AC1F566A6300551B16 /* TestViewController.m */; };
+		D068291D1F5694480082F10A /* TestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D068291C1F5694480082F10A /* TestView.m */; };
+		D06C6EB91F501B2A004B3CC0 /* AppStoreInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EB61F501B2A004B3CC0 /* AppStoreInfoModel.m */; };
+		D06C6EBA1F501B2A004B3CC0 /* NewEditionTestManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EB81F501B2A004B3CC0 /* NewEditionTestManager.m */; };
+		D06C6EBD1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EBC1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.m */; };
+		D06C6EC01F501B9B004B3CC0 /* UILabel+DigitalAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EBF1F501B9B004B3CC0 /* UILabel+DigitalAnimation.m */; };
+		D06C6EC61F501C69004B3CC0 /* DAConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EC31F501C69004B3CC0 /* DAConfig.m */; };
+		D06C6EC71F501C69004B3CC0 /* NSBundle+DAUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EC51F501C69004B3CC0 /* NSBundle+DAUtils.m */; };
+		D06C6ECD1F501D1F004B3CC0 /* TJHButtonCountingDownManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6ECA1F501D1F004B3CC0 /* TJHButtonCountingDownManager.m */; };
+		D06C6ECE1F501D1F004B3CC0 /* TJHCaptcheButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6ECC1F501D1F004B3CC0 /* TJHCaptcheButton.m */; };
+		D06C6ED31F501DCA004B3CC0 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6ED21F501DCA004B3CC0 /* GCDAsyncSocket.m */; };
+		D06C6ED61F501DDC004B3CC0 /* FXBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6ED51F501DDC004B3CC0 /* FXBlurView.m */; };
+		D06C6EE11F501EA4004B3CC0 /* GCDGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EDA1F501EA4004B3CC0 /* GCDGroup.m */; };
+		D06C6EE21F501EA4004B3CC0 /* GCDQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EDC1F501EA4004B3CC0 /* GCDQueue.m */; };
+		D06C6EE31F501EA4004B3CC0 /* GCDSemaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EDE1F501EA4004B3CC0 /* GCDSemaphore.m */; };
+		D06C6EE41F501EA4004B3CC0 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EE01F501EA4004B3CC0 /* GCDTimer.m */; };
+		D06C6EEA1F501EAC004B3CC0 /* Easing.c in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EE61F501EAC004B3CC0 /* Easing.c */; };
+		D06C6EEB1F501EAC004B3CC0 /* YXEasing.m in Sources */ = {isa = PBXBuildFile; fileRef = D06C6EE91F501EAC004B3CC0 /* YXEasing.m */; };
 		FB7B81D1FEB07044C354C7E7 /* libPods-iBreezee2UITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BAF78996C09CCEB717B55BA /* libPods-iBreezee2UITests.a */; };
 /* End PBXBuildFile section */
 
@@ -65,9 +83,46 @@
 		D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MIRXib.m"; sourceTree = "<group>"; };
 		D008A96C1F3B662400D63CD2 /* UIView+MIRCornerRadius.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MIRCornerRadius.h"; sourceTree = "<group>"; };
 		D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MIRCornerRadius.m"; sourceTree = "<group>"; };
-		D008A96F1F3B679200D63CD2 /* MIRGlobalConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRGlobalConstant.h; sourceTree = "<group>"; };
 		D008A9701F3B68FC00D63CD2 /* MIRSystemAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRSystemAlert.h; sourceTree = "<group>"; };
 		D008A9711F3B68FC00D63CD2 /* MIRSystemAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MIRSystemAlert.m; sourceTree = "<group>"; };
+		D01D88BD1F3C28EE00E2650C /* MIRGlobalConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MIRGlobalConst.h; sourceTree = "<group>"; };
+		D04851AB1F566A6300551B16 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		D04851AC1F566A6300551B16 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		D068291B1F5694480082F10A /* TestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestView.h; sourceTree = "<group>"; };
+		D068291C1F5694480082F10A /* TestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestView.m; sourceTree = "<group>"; };
+		D06C6EB51F501B2A004B3CC0 /* AppStoreInfoModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppStoreInfoModel.h; sourceTree = "<group>"; };
+		D06C6EB61F501B2A004B3CC0 /* AppStoreInfoModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppStoreInfoModel.m; sourceTree = "<group>"; };
+		D06C6EB71F501B2A004B3CC0 /* NewEditionTestManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewEditionTestManager.h; sourceTree = "<group>"; };
+		D06C6EB81F501B2A004B3CC0 /* NewEditionTestManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewEditionTestManager.m; sourceTree = "<group>"; };
+		D06C6EBB1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBezierPath+LxThroughPointsBezier.h"; sourceTree = "<group>"; };
+		D06C6EBC1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBezierPath+LxThroughPointsBezier.m"; sourceTree = "<group>"; };
+		D06C6EBE1F501B9B004B3CC0 /* UILabel+DigitalAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+DigitalAnimation.h"; sourceTree = "<group>"; };
+		D06C6EBF1F501B9B004B3CC0 /* UILabel+DigitalAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+DigitalAnimation.m"; sourceTree = "<group>"; };
+		D06C6EC21F501C69004B3CC0 /* DAConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DAConfig.h; sourceTree = "<group>"; };
+		D06C6EC31F501C69004B3CC0 /* DAConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DAConfig.m; sourceTree = "<group>"; };
+		D06C6EC41F501C69004B3CC0 /* NSBundle+DAUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+DAUtils.h"; sourceTree = "<group>"; };
+		D06C6EC51F501C69004B3CC0 /* NSBundle+DAUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+DAUtils.m"; sourceTree = "<group>"; };
+		D06C6EC91F501D1F004B3CC0 /* TJHButtonCountingDownManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJHButtonCountingDownManager.h; sourceTree = "<group>"; };
+		D06C6ECA1F501D1F004B3CC0 /* TJHButtonCountingDownManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJHButtonCountingDownManager.m; sourceTree = "<group>"; };
+		D06C6ECB1F501D1F004B3CC0 /* TJHCaptcheButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TJHCaptcheButton.h; sourceTree = "<group>"; };
+		D06C6ECC1F501D1F004B3CC0 /* TJHCaptcheButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TJHCaptcheButton.m; sourceTree = "<group>"; };
+		D06C6ED11F501DCA004B3CC0 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		D06C6ED21F501DCA004B3CC0 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		D06C6ED41F501DDC004B3CC0 /* FXBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FXBlurView.h; sourceTree = "<group>"; };
+		D06C6ED51F501DDC004B3CC0 /* FXBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FXBlurView.m; sourceTree = "<group>"; };
+		D06C6ED81F501EA4004B3CC0 /* GCD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCD.h; sourceTree = "<group>"; };
+		D06C6ED91F501EA4004B3CC0 /* GCDGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDGroup.h; sourceTree = "<group>"; };
+		D06C6EDA1F501EA4004B3CC0 /* GCDGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDGroup.m; sourceTree = "<group>"; };
+		D06C6EDB1F501EA4004B3CC0 /* GCDQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDQueue.h; sourceTree = "<group>"; };
+		D06C6EDC1F501EA4004B3CC0 /* GCDQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDQueue.m; sourceTree = "<group>"; };
+		D06C6EDD1F501EA4004B3CC0 /* GCDSemaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDSemaphore.h; sourceTree = "<group>"; };
+		D06C6EDE1F501EA4004B3CC0 /* GCDSemaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDSemaphore.m; sourceTree = "<group>"; };
+		D06C6EDF1F501EA4004B3CC0 /* GCDTimer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		D06C6EE01F501EA4004B3CC0 /* GCDTimer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
+		D06C6EE61F501EAC004B3CC0 /* Easing.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Easing.c; sourceTree = "<group>"; };
+		D06C6EE71F501EAC004B3CC0 /* Easing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Easing.h; sourceTree = "<group>"; };
+		D06C6EE81F501EAC004B3CC0 /* YXEasing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXEasing.h; sourceTree = "<group>"; };
+		D06C6EE91F501EAC004B3CC0 /* YXEasing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YXEasing.m; sourceTree = "<group>"; };
 		DFDF0F160589506FDD5F7967 /* Pods-iBreezee2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2UITests/Pods-iBreezee2UITests.release.xcconfig"; sourceTree = "<group>"; };
 		E706ABACD6E13AB1FA7CD13A /* Pods-iBreezee2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2Tests/Pods-iBreezee2Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E942C8D17574954F14D3C509 /* Pods-iBreezee2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iBreezee2.release.xcconfig"; path = "Pods/Target Support Files/Pods-iBreezee2/Pods-iBreezee2.release.xcconfig"; sourceTree = "<group>"; };
@@ -181,6 +236,10 @@
 			children = (
 				D008A9271F3B5D3100D63CD2 /* AppDelegate.h */,
 				D008A9281F3B5D3100D63CD2 /* AppDelegate.m */,
+				D04851AB1F566A6300551B16 /* TestViewController.h */,
+				D04851AC1F566A6300551B16 /* TestViewController.m */,
+				D068291B1F5694480082F10A /* TestView.h */,
+				D068291C1F5694480082F10A /* TestView.m */,
 			);
 			path = AppEntry;
 			sourceTree = "<group>";
@@ -192,6 +251,10 @@
 				D008A96A1F3B659700D63CD2 /* UIView+MIRXib.m */,
 				D008A96C1F3B662400D63CD2 /* UIView+MIRCornerRadius.h */,
 				D008A96D1F3B662400D63CD2 /* UIView+MIRCornerRadius.m */,
+				D06C6EBB1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.h */,
+				D06C6EBC1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.m */,
+				D06C6EBE1F501B9B004B3CC0 /* UILabel+DigitalAnimation.h */,
+				D06C6EBF1F501B9B004B3CC0 /* UILabel+DigitalAnimation.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -201,7 +264,7 @@
 			children = (
 				D008A9661F3B60AA00D63CD2 /* PrefixHeader.pch */,
 				D008A9671F3B633600D63CD2 /* MIRColorCenter.h */,
-				D008A96F1F3B679200D63CD2 /* MIRGlobalConstant.h */,
+				D01D88BD1F3C28EE00E2650C /* MIRGlobalConst.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -236,6 +299,8 @@
 		D008A9641F3B5DCB00D63CD2 /* Utilites */ = {
 			isa = PBXGroup;
 			children = (
+				D06C6EC11F501C0A004B3CC0 /* Localization */,
+				D06C6EB41F501B2A004B3CC0 /* NewEditionCheck */,
 			);
 			path = Utilites;
 			sourceTree = "<group>";
@@ -243,8 +308,91 @@
 		D008A9651F3B5DCB00D63CD2 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				D06C6EE51F501EAC004B3CC0 /* YXEasing */,
+				D06C6ED71F501EA4004B3CC0 /* YXGCD */,
+				D06C6ED01F501D97004B3CC0 /* GCDAsyncSocket */,
+				D06C6ECF1F501D7B004B3CC0 /* FXBlurView */,
+				D06C6EC81F501CF9004B3CC0 /* CountingButton */,
 			);
 			path = Vendors;
+			sourceTree = "<group>";
+		};
+		D06C6EB41F501B2A004B3CC0 /* NewEditionCheck */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6EB51F501B2A004B3CC0 /* AppStoreInfoModel.h */,
+				D06C6EB61F501B2A004B3CC0 /* AppStoreInfoModel.m */,
+				D06C6EB71F501B2A004B3CC0 /* NewEditionTestManager.h */,
+				D06C6EB81F501B2A004B3CC0 /* NewEditionTestManager.m */,
+			);
+			path = NewEditionCheck;
+			sourceTree = "<group>";
+		};
+		D06C6EC11F501C0A004B3CC0 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6EC21F501C69004B3CC0 /* DAConfig.h */,
+				D06C6EC31F501C69004B3CC0 /* DAConfig.m */,
+				D06C6EC41F501C69004B3CC0 /* NSBundle+DAUtils.h */,
+				D06C6EC51F501C69004B3CC0 /* NSBundle+DAUtils.m */,
+			);
+			name = Localization;
+			sourceTree = "<group>";
+		};
+		D06C6EC81F501CF9004B3CC0 /* CountingButton */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6EC91F501D1F004B3CC0 /* TJHButtonCountingDownManager.h */,
+				D06C6ECA1F501D1F004B3CC0 /* TJHButtonCountingDownManager.m */,
+				D06C6ECB1F501D1F004B3CC0 /* TJHCaptcheButton.h */,
+				D06C6ECC1F501D1F004B3CC0 /* TJHCaptcheButton.m */,
+			);
+			name = CountingButton;
+			sourceTree = "<group>";
+		};
+		D06C6ECF1F501D7B004B3CC0 /* FXBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6ED41F501DDC004B3CC0 /* FXBlurView.h */,
+				D06C6ED51F501DDC004B3CC0 /* FXBlurView.m */,
+			);
+			name = FXBlurView;
+			sourceTree = "<group>";
+		};
+		D06C6ED01F501D97004B3CC0 /* GCDAsyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6ED11F501DCA004B3CC0 /* GCDAsyncSocket.h */,
+				D06C6ED21F501DCA004B3CC0 /* GCDAsyncSocket.m */,
+			);
+			name = GCDAsyncSocket;
+			sourceTree = "<group>";
+		};
+		D06C6ED71F501EA4004B3CC0 /* YXGCD */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6ED81F501EA4004B3CC0 /* GCD.h */,
+				D06C6ED91F501EA4004B3CC0 /* GCDGroup.h */,
+				D06C6EDA1F501EA4004B3CC0 /* GCDGroup.m */,
+				D06C6EDB1F501EA4004B3CC0 /* GCDQueue.h */,
+				D06C6EDC1F501EA4004B3CC0 /* GCDQueue.m */,
+				D06C6EDD1F501EA4004B3CC0 /* GCDSemaphore.h */,
+				D06C6EDE1F501EA4004B3CC0 /* GCDSemaphore.m */,
+				D06C6EDF1F501EA4004B3CC0 /* GCDTimer.h */,
+				D06C6EE01F501EA4004B3CC0 /* GCDTimer.m */,
+			);
+			path = YXGCD;
+			sourceTree = "<group>";
+		};
+		D06C6EE51F501EAC004B3CC0 /* YXEasing */ = {
+			isa = PBXGroup;
+			children = (
+				D06C6EE61F501EAC004B3CC0 /* Easing.c */,
+				D06C6EE71F501EAC004B3CC0 /* Easing.h */,
+				D06C6EE81F501EAC004B3CC0 /* YXEasing.h */,
+				D06C6EE91F501EAC004B3CC0 /* YXEasing.m */,
+			);
+			path = YXEasing;
 			sourceTree = "<group>";
 		};
 		EBCDD976599D01717A4DBD0C /* Pods */ = {
@@ -543,11 +691,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D06C6EEA1F501EAC004B3CC0 /* Easing.c in Sources */,
+				D06C6EEB1F501EAC004B3CC0 /* YXEasing.m in Sources */,
+				D06C6EE11F501EA4004B3CC0 /* GCDGroup.m in Sources */,
+				D06C6EE21F501EA4004B3CC0 /* GCDQueue.m in Sources */,
 				D008A96E1F3B662400D63CD2 /* UIView+MIRCornerRadius.m in Sources */,
+				D06C6ECD1F501D1F004B3CC0 /* TJHButtonCountingDownManager.m in Sources */,
+				D06C6ED61F501DDC004B3CC0 /* FXBlurView.m in Sources */,
+				D06C6EE41F501EA4004B3CC0 /* GCDTimer.m in Sources */,
+				D06C6EBD1F501B6C004B3CC0 /* UIBezierPath+LxThroughPointsBezier.m in Sources */,
 				D008A9721F3B68FC00D63CD2 /* MIRSystemAlert.m in Sources */,
+				D06C6EC01F501B9B004B3CC0 /* UILabel+DigitalAnimation.m in Sources */,
+				D06C6EC71F501C69004B3CC0 /* NSBundle+DAUtils.m in Sources */,
+				D06C6EBA1F501B2A004B3CC0 /* NewEditionTestManager.m in Sources */,
 				D008A96B1F3B659700D63CD2 /* UIView+MIRXib.m in Sources */,
+				D06C6EB91F501B2A004B3CC0 /* AppStoreInfoModel.m in Sources */,
+				D068291D1F5694480082F10A /* TestView.m in Sources */,
 				D008A9291F3B5D3100D63CD2 /* AppDelegate.m in Sources */,
+				D06C6EC61F501C69004B3CC0 /* DAConfig.m in Sources */,
+				D06C6ECE1F501D1F004B3CC0 /* TJHCaptcheButton.m in Sources */,
+				D06C6ED31F501DCA004B3CC0 /* GCDAsyncSocket.m in Sources */,
 				D008A9261F3B5D3100D63CD2 /* main.m in Sources */,
+				D06C6EE31F501EA4004B3CC0 /* GCDSemaphore.m in Sources */,
+				D04851AD1F566A6300551B16 /* TestViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

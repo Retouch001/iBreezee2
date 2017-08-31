@@ -16,9 +16,11 @@
      defaultHandler:(void (^)(void))defaultHandler {
     
     UIAlertController *alertCtl = [UIAlertController alertControllerWithTitle:alertTitle message:nil preferredStyle:UIAlertControllerStyleAlert];
+    
     UIAlertAction *actionDefault = [UIAlertAction actionWithTitle:defaultTtitle style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
         !defaultHandler ? : defaultHandler();
     }];
+    
     [alertCtl addAction:actionDefault];
     [viewController presentViewController:alertCtl animated:YES completion:nil];
 }

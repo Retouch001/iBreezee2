@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>DateTools.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>IQKeyboardManager.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -77,17 +82,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>16CD0FF6462C9E54418807B7A7C6EFF5</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3AFE38159614CEB0418F7B6F7B1D7259</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>49867A29DE27CB4C5BB5C14BED271D2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>61B385931CC4028317779183D2AED710</key>
+		<key>5D94A0F966B88FDA1CAC9C64F819D3F2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>892E5EB4DF906740B5C6B1D88D5A6C98</key>
+		<key>61B385931CC4028317779183D2AED710</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -107,22 +122,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>D2190D1EF0A4FB64013A7D2C16DEC760</key>
+		<key>B36F6D48026E14827529F787D63D61B8</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DF76D74A7C7AE87ACFCF6C252E8FFC1B</key>
+		<key>D3BDC5FBF086A65DFD884BDF5A0DCF28</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E430FE7E21AC145A2DC712D3BF0DBF7D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F383983351461D50D2D3F9091E2A536E</key>
+		<key>FC6350E867A7D61B444EB5FD3F9F3F77</key>
 		<dict>
 			<key>primary</key>
 			<true/>
